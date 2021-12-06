@@ -11,8 +11,7 @@ module.exports = {
     },
     open: true
   },
-  publicPath:
-    process.env.NODE_ENV === "production" ? "/metronic/vue/demo4/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
   configureWebpack: {
     resolve: {
       alias: {
